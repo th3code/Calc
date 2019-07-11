@@ -1,0 +1,73 @@
+body{
+	background: #333333;
+}
+
+
+
+input.x{
+	margin-left:25%;
+	width:50%;
+	text-align:center;
+	background:#23451525;
+	padding: 5px;
+     font-size: 16px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #333333;
+     color: #dddddd;
+     border-style: solid;
+     border-radius: 15px;
+	 letter-spacing:2px;
+}
+input.x:focus{
+	outline:none;
+}
+
+#wynik{
+	margin-left:25%;
+	font-size:200%;
+	animation: vibrate-1 5s linear infinite both;
+}
+
+.opis{
+	font-size:120%;
+	text-align:center;
+	
+}
+
+#ramka{
+	background: #333333;
+	width:16%;
+	margin-left:42%;
+	border:1px dotted #aaaaaa;
+	color:#eeeeee;
+}
+
+#ramka:hover{
+	background: #222222;
+	width:16%;
+	margin-left:42%;
+	border:1px dotted #ffffff;
+	color:#eeeeee;
+}
+
+@keyframes vibrate-1 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-5px, 5px);
+  }
+  40% {
+    transform: translate(-5px, -5px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
