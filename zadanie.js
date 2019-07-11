@@ -1,6 +1,9 @@
 wys1.addEventListener("mousemove", policz);
 szer1.addEventListener("mousemove", policz);
 dlugosc1.addEventListener("mousemove", policz);
+wys1.addEventListener("change", policz);
+szer1.addEventListener("change", policz);
+dlugosc1.addEventListener("change", policz);
 
 function policz(){
 var wys1 = document.getElementById('wys1').value;
