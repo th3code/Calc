@@ -1,32 +1,28 @@
 body{
 	background: #333333;
+	font-family: 'Anton', sans-serif;
 }
 
 
 
 input.x{
-	margin-left:25%;
-	width:50%;
+	width:90%;
 	text-align:center;
-	background:#23451525;
-	padding: 5px;
-     font-size: 16px;
-     border-width: 1px;
-     border-color: #CCCCCC;
-     background-color: #333333;
-     color: #dddddd;
-     border-style: solid;
-     border-radius: 15px;
-	 letter-spacing:2px;
+	margin-left:5%;
+	color:grey;
+	
+	
 }
-input.x:focus{
-	outline:none;
+.y{
+	font-size:150%;
+	text-align:center;
 }
 
+
 #wynik{
-	margin-left:25%;
+	margin-left:45%;
 	font-size:200%;
-	animation: vibrate-1 5s linear infinite both;
+	color:black;
 }
 
 .opis{
@@ -37,37 +33,9 @@ input.x:focus{
 
 #ramka{
 	background: #333333;
-	width:16%;
-	margin-left:42%;
+	width:90%;
+	margin-left:5%;
 	border:1px dotted #aaaaaa;
 	color:#eeeeee;
-}
-
-#ramka:hover{
-	background: #222222;
-	width:16%;
-	margin-left:42%;
-	border:1px dotted #ffffff;
-	color:#eeeeee;
-}
-
-@keyframes vibrate-1 {
-  0% {
-    transform: translate(0);
-  }
-  20% {
-    transform: translate(-5px, 5px);
-  }
-  40% {
-    transform: translate(-5px, -5px);
-  }
-  60% {
-    transform: translate(2px, 2px);
-  }
-  80% {
-    transform: translate(2px, -2px);
-  }
-  100% {
-    transform: translate(0);
-  }
+	height:85%;
 }
