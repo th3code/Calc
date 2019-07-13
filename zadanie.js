@@ -6,6 +6,7 @@ e.addEventListener("change", policz);
 f.addEventListener("change", policz);
 g.addEventListener("change", policz);
 
+
 function policz(){
 	
 var a1 = document.getElementById('a1').value;
@@ -29,5 +30,4 @@ document.getElementById("w1").innerHTML=wiersz1;
 document.getElementById("w2").innerHTML=wiersz2;
 document.getElementById("w3").innerHTML=wiersz3;
 }
-
 
