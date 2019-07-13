@@ -1,41 +1,87 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 body{
 	background: #333333;
 	font-family: 'Anton', sans-serif;
 }
 
-
-
-input.x{
-	width:90%;
-	text-align:center;
-	margin-left:5%;
-	color:grey;
-	
-	
-}
-.y{
-	font-size:150%;
-	text-align:center;
-}
-
-
-#wynik{
-	margin-left:45%;
-	font-size:200%;
-	color:black;
-}
-
-.opis{
-	font-size:120%;
-	text-align:center;
-	
-}
-
-#ramka{
-	background: #333333;
-	width:90%;
-	margin-left:5%;
-	border:1px dotted #aaaaaa;
+#wejscie{
+	background: #444444;
+	width:45%;
+	margin:5%;
 	color:#eeeeee;
-	height:85%;
+	display:inline-block;
+	border: 1px solid white;
+	position:static;
+}
+
+#wyjscie{
+	background: #222222;
+	width:20%;
+	margin:5%;
+	color:#eeeeee;
+	display:inline-block;
+	border: 1px solid white;
+	position:static;
+}
+
+#blok{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	height:80%;
+}
+
+.wejscia{
+	padding:1%;
+	margin:1%;
+	width:10%;
+}
+
+.spany{
+	padding:5%;
+	margin:1%;
 }

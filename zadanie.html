@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8"/>
-  <title>EXTRA</title>
+  <title>SMIETNIK</title>
   <meta name="keywords" content="extra"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <link href="https://fonts.googleapis.com/css?family=Anton&display=swap&subset=latin-ext" rel="stylesheet">
@@ -15,17 +15,31 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
-<div id="ramka">
-	<p class="opis"> Wysokość warstwy [mm]: <div id="aaa" class="y"> 0.25</div> </p>
-<input type="range" min="0.01" max="2" step="0.01" class="x" id="wys1" value="0.25">
-	<p class="opis"> Szerokość ścieżki [mm]: <div id="bbb" class="y"> 0.4</div></p> 
-<input type="range" min="0.2" max="1.4" step="0.01" class="x" id="szer1" value="0.4">
-	<p class="opis"> Długość ubytku [mm]: <div id="ccc" class="y"> 2</div></p> 
-<input type="range" min="0.1" max="20" step="0.1" class="x" id="dlugosc1" value="2">
-<br>
-<p class="opis"> Brakujący materiał (Extra restart): </p> 
-<p id="wynik">0.2 [mm3]</p>
+
+<div id="blok">
+
+			<div id="wejscie">
+			<span class="spany">G1 E    <input type="number" class="wejscia" id="a1"> F <input type="number" class="wejscia" id="f1"><br /></span>
+			<span class="spany">G1 E    **** F <input type="number" class="wejscia" id="f2"><br /></span>
+			<span class="spany">G92 E  **** </span> <br/> <br />
+			
+			<span class="spany">ZMIANA <input type="number" class="wejscia" id="d"><br /></span>
+				<span class="spany">EXTRA <input type="number" class="wejscia" id="e"><br /></span>
+					<span class="spany">DŁUGOŚĆ RETRAKCJI <input type="number" class="wejscia" id="f"><br /></span>
+						<span class="spany">DODATKOWA RETRAKCJA <input type="number" class="wejscia" id="g"><br /></span>
+			
+			</div>
+
+			<div id="wyjscie">
+				<span class="spany" id="w1">G1 E5 F1000</span> <br />
+			<span class="spany" id="w2"> G1 E5 F1000</span> <br />
+			<span class="spany" id="w3">G92 E5 F1000</span> <br />
+			</div>
+			
 </div>
+
+
+
 <script src="zadanie.js"></script>
 </body>
 </html>
